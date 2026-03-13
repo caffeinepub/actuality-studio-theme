@@ -3,6 +3,7 @@ import { ButtonStyles } from "../components/ButtonStyles";
 import { ColorPalette } from "../components/ColorPalette";
 import { CssExportSection } from "../components/CssExportSection";
 import { IntegrationGuide } from "../components/IntegrationGuide";
+import { MigrationChecklist } from "../components/MigrationChecklist";
 import { ThemeToggleBar } from "../components/ThemeToggleBar";
 import { ComponentShowcase } from "../components/ThemedCard";
 import { ThemedFooter } from "../components/ThemedFooter";
@@ -25,6 +26,7 @@ export function ShowcasePage() {
       <TypographyScale />
       <AboutSection />
       <IntegrationGuide />
+      <MigrationChecklist />
       <CssExportSection />
       <ThemedFooter />
     </div>
